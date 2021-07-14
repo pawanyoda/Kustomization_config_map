@@ -5,7 +5,11 @@ configMapGenerator:
 - files:
   - ./test_data_1.yaml
   - ./test_date_2.yaml
-  name: test-client
+  name: test-client_1
+- files:
+  - ./test_data_1.yaml
+  - ./test_date_2.yaml
+  name: test-client_2
 # patchesStrategicMerge:
 # - ./domain_pawan_registry_control_plane_5xx.yaml
 generatorOptions:
